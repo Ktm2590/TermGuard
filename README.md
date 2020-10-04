@@ -7,15 +7,19 @@
 > поддерживается только aarch64 архитектура!
 
 1. Обновление пакетов
+
 `apt update; apt upgrade`
 
 2. Установка зависимостей
+
 `apt install git wget -y`
 
 3. Копирование репозитория
+
 `git clone https://github.com/DarkGa/TermGuard.git`
 
 4. Установка антивируса
+
 `cd TermGuard; bash install.sh`
 
 ## Мини гайд по использованию
