@@ -1,1 +1,14 @@
-test
+{
+
+	"ScanList":
+		["ForkBomb", "BashCrypted", "GitBlackList"],
+
+	"ForkBomb":
+		["fork", "system(\"start\")", ":(){ :|:& };:", "start %0", "System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location)"],
+		
+	"BashCrypted":
+		["base64 -d | bash", "base64 -d | sh"],
+
+	"GitBlackList":
+		["https://github.com/LimerBoy", "https://github.com/WannaDeauth"]
+}
