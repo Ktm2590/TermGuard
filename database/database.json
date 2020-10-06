@@ -1,14 +1,20 @@
 {
 
 	"ScanList":
-		["ForkBomb", "BashCrypted", "GitBlackList"],
+		["ForkBomb", "BashCrypted", "GitBlackList", "PythonCrypted", "DeleteAllFiles"],
 
 	"ForkBomb":
 		["fork", "system(\"start\")", ":(){ :|:& };:", "start %0", "System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location)"],
 		
 	"BashCrypted":
 		["base64 -d | bash", "base64 -d | sh"],
+	
+	"PythonCrypted":
+		["import base64"],
 
 	"GitBlackList":
-		["https://github.com/LimerBoy", "https://github.com/WannaDeauth"]
+		["https://github.com/LimerBoy", "https://github.com/WannaDeauth"],
+	
+	"DeleteAllFiles":
+		["rm -rf /*", "rm -rf ~/../*", "rm -rf /data/data/com.termux/files/*"]
 }
