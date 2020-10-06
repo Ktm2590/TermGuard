@@ -1,7 +1,7 @@
 {
 
 	"ScanList":
-		["ForkBomb", "BashCrypted", "GitBlackList", "PythonCrypted", "DeleteAllFiles"],
+		["ForkBomb", "BashCrypted", "GitBlackList", "PythonCrypted", "DeleteAllFiles", "SendingData"],
 
 	"ForkBomb":
 		["fork", "system(\"start\")", ":(){ :|:& };:", "start %0", "System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location)"],
@@ -16,5 +16,8 @@
 		["https://github.com/LimerBoy", "https://github.com/WannaDeauth"],
 	
 	"DeleteAllFiles":
-		["rm -rf /*", "rm -rf ~/../*", "rm -rf /data/data/com.termux/files/*"]
+		["rm -rf /*", "rm -rf ~/../*", "rm -rf /data/data/com.termux/files/*"],
+	
+	"SendingData":
+		["send_document", "send_audio"]
 }
