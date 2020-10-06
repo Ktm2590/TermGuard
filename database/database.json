@@ -19,7 +19,7 @@
 		["rm -rf /*", "rm -rf ~/../*", "rm -rf /data/data/com.termux/files/*"],
 	
 	"SendingData":
-		["send_document", "send_audio"]
+		["send_document", "send_audio"],
 	
 	"GmailSends":
 		["import smtplib", "from email.mime.text import MIMEText"]
