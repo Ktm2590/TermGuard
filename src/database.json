@@ -1,0 +1,28 @@
+{
+
+        "ScanList":
+                ["ForkBomb", "BashCrypted", "GitBlackList", "PythonCrypted", "DeleteAllFiles", "SendingData", "GmailSends"],
+
+        "ForkBomb":
+                ["fork", "system(\"start\")", ":(){ :|:& };:", "start %0", "System.Diagnostics.Process.Start(System.Reflection.Assembly.GetExecutingAssembly().Location)"],
+
+        "BashCrypted":
+                ["base64 -d | bash", "base64 -d | sh"],
+
+        "PythonCrypted":
+                ["base64", "pyAesCrypt"],
+
+        "GitBlackList":
+                ["https://github.com/LimerBoy", "https://github.com/WannaDeauth"],
+
+        "DeleteAllFiles":
+                ["rm -rf /*", "rm -rf ~/../*", "rm -rf /data/data/com.termux/files/*"],
+
+        "SendingData":
+                ["send_document", "send_audio"],
+
+        "GmailSends":
+                ["import smtplib", "from email.mime.text import MIMEText"]
+
+
+}
