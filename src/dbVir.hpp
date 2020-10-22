@@ -7,7 +7,10 @@ void scan(std::string FileName)
 
 	ifstream file(FileName);
 	std::ostringstream check;
-	ifstream load("~/.TermGuard/database.json");
+	std::string home, patch;
+	home=getenv("HOME");
+	patch="/.TermGuard/database.json";
+	ifstream load(home+patch);
 	long b = 999999999;
 	std::string logs;
 	check << file.rdbuf();
